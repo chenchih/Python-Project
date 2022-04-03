@@ -1,7 +1,3 @@
-'''
-https://www.youtube.com/watch?v=d2GBO_QjRlo
-update: 2022
-'''
 from selenium import webdriver
 from time import sleep
 from getpass import getpass
@@ -149,8 +145,7 @@ password=getpass('Enter Password:')
 #user_id=""
 #password=""
 mybot=InstaBot(user_id, password)
-#mybot.following_user()
+mybot.following_user()
 mybot.follower_user()
 mybot.quiting()
-#mybot.get_unfollower()
-#future add unfollowing, unsave, save, get to list, excel
+
